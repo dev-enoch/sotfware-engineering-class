@@ -1,0 +1,23 @@
+/* 
+   Mini Project: Personal Information Program
+   This program prints your name, age, and favorite hobby.
+   Practice using comments, multiple print statements, and correct class structure.
+*/
+
+public class MiniProject {                 // Class definition starts
+    public static void main(String[] args) {  // Main method: entry point
+
+        // Print your name
+        System.out.println("Name: Enoch");
+
+        // Print your age
+        System.out.println("Age: 16");
+
+        // Print your favorite hobby
+        System.out.println("Favorite Hobby: Coding in Java");
+
+        // Add a greeting message
+        System.out.println("Hello! Welcome to my Java mini project!");
+
+    }  // End of main method
+}  // End of class

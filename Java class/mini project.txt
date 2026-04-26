@@ -1,0 +1,5 @@
+/* 
+   Mini Project: Personal Information Program
+   This program prints your name, age, and favorite hobby.
+   Practice using comments, multiple print statements, and correct class structure.
+*/
