@@ -19,20 +19,28 @@ Teaching material from a software engineering class: Java first, then Python, co
 
 ## Running the examples
 
-Java:
+The Java examples live in subfolders and declare no package, so compile into the folder and run with it on the classpath.
 
 ```bash
 cd "Java class"
 javac examples/Objects.java
-java examples.Objects
+java -cp examples Objects
 ```
 
-Or for a single file at the root:
+The files at the root of the folder are standalone:
 
 ```bash
 cd "Java class"
 javac intro.java
 java intro
+```
+
+The student management system does declare a package, so run it by its full name:
+
+```bash
+cd "Java class"
+javac StudentManagementSystem/Student.java StudentManagementSystem/Main.java
+java StudentManagementSystem.Main
 ```
 
 Python:
